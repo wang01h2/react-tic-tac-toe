@@ -1,13 +1,15 @@
 import './App.css'
 import Button from "./Button.jsx";
+import {Component} from "react";
 
-function App() {
-
-  return (
-      <div>
-        <Button></Button>
-      </div>
-  )
+class App extends Component{
+    render() {
+        return (
+            <div>
+                <Button onClick={() => alert('想你😘')}>I'm a button</Button>
+            </div>
+        )
+    }
 }
 
 export default App
