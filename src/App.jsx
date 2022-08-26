@@ -6,7 +6,7 @@ class App extends Component{
     render() {
         return (
             <div>
-                <Button onClick={() => alert('想你😘')}>I'm a button</Button>
+                <Button onClick={() => console.log('click done.')}>I'm a button</Button>
             </div>
         )
     }
