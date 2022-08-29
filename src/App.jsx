@@ -3,9 +3,9 @@ import Button from "./Button.jsx";
 
 function App(){
     return (
-        <div>
-            <Button onClick={() => console.log('click done.')}>I'm a button</Button>
-        </div>
+        <>
+            <Button type="test" onClick={() => console.log('click done.')}>I'm a button</Button>
+        </>
     )
 }
 
