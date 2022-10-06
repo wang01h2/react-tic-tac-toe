@@ -16,8 +16,8 @@ const listItem = products.map(product => {
 function App(){
     return (
         <>
-            <Button type="test" onClick={() => console.log('click done.')}>I'm a button</Button>
-            <ul>{listItem}</ul>
+            <Button className={'awesome-button'} type="test" onClick={() => console.log('click done.')}>I'm a button</Button>
+            <ul className={'hello-react'}>{listItem}</ul>
         </>
     )
 }
