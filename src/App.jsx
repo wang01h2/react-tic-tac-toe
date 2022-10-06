@@ -17,8 +17,8 @@ function App(){
     return (
         <>
             <Button className={'awesome-button'} type="" onClick={() => console.log('click done.')}>I'm a button</Button>
-            <Button className={'awesome-button'} type="danger" onClick={() => console.log('click done.')}>I'm a button</Button>
-            <Button className={'awesome-button'} type="warning" onClick={() => console.log('click done.')}>I'm a button</Button>
+            <Button className={'awesome-button'} type="danger" onClick={() => console.log('click done.')}>I'm danger</Button>
+            <Button className={'awesome-button'} type="warning" onClick={() => console.log('click done.')}>I'm warning</Button>
             <ul className={'hello-react'}>{listItem}</ul>
         </>
     )
