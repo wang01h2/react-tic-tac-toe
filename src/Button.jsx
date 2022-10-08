@@ -1,9 +1,12 @@
 // 文档建议直接解构获取props，而不是获取props对象
+
 /**
  * type: 按钮的类型
- *
- *
- * */
+ * onClick: click事件
+ * children: 子内容，如果是非文本，则会undefined，未知原因
+ * className: class name
+ */
+
 export function Button({type,onClick,children,className}) {
     const handleClick = () => {
         if(!onClick) return
