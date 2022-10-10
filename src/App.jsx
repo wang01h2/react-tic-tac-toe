@@ -1,5 +1,5 @@
 import './App.css'
-import Button from "./Button.jsx";
+import Button from "./components/Button.jsx";
 
 
 const products = [
@@ -16,6 +16,7 @@ const listItem = products.map(product => {
 function App(){
     return (
         <>
+            <h1 className="text-5xl">Hello 👋</h1>
             <Button className={'awesome-button'} type="" onClick={() => console.log('click done.')}>I'm a button</Button>
             <Button className={'test'} type="" onClick={() => console.log('click done.')}>
                 <div>小老弟怎么肥事？</div>
